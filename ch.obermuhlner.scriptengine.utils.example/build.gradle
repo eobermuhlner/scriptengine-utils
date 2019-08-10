@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':ch.obermuhlner.scriptengine.utils')
+    //compile 'ch.obermuhlner:scriptengine-utils:0.1.0'
+
+    testCompile 'junit:junit:4.12'
+}
+
